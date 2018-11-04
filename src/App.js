@@ -53,7 +53,7 @@ state = {
 
         if ( data.count === 0) {
             this.setState({
-                error: 'wrong name of city'
+                error: 'Wrong name of city'
             })
          
              return

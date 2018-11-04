@@ -109,8 +109,9 @@ body::before {
 }
 
 p.city {
-    font-size: 20px;
-    color: #fff;
+    color: #d3d3d3;
+    font-size: 30px;
+  
 }
 
 .weather-icon__container {
@@ -140,5 +141,12 @@ p.temperature::after {
     width: 15px;
     height: 15px;
     display: inline-block;
+}
+
+p.error {
+    color: #7af334;
+    font-size: 12px;
+    border: 1px solid #7af334;
+    padding: 10px 20px;
 }
 
